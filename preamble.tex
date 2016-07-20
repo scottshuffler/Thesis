@@ -1,0 +1,43 @@
+% The preamble begins here.
+\usepackage[body={6in,9in},
+top=1in, left=1.5in, nohead]{geometry}
+\newcommand{\be}{\begin{enumerate}}
+\newcommand{\ee}{\end{enumerate}}
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+% the amsfonts are needed for mathbb and mathfrak characters
+% I use them all the time
+\usepackage{amsfonts}    
+\usepackage{latexsym}
+\usepackage{amsmath} 
+\usepackage{setspace} % for doublespacing
+\doublespacing
+\usepackage{graphicx}  % if you need graphics
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+
+%%%%% Theorems, Definitions, Examples, etc. 
+\usepackage{amsthm}  %the amsthm package is needed for the following
+\theoremstyle{plain} % default.  Heading is bold, text italic.
+\newtheorem{thm}{Theorem}
+\newtheorem{lem}{Lemma}
+\newtheorem{prop}{Proposition}
+\newtheorem*{cor}{Corollary}
+\newtheorem*{RNT}{The Rank-Nullity Theorem}
+\newtheorem*{BT}{Bezout's Theorem}
+
+\theoremstyle{definition}  % Heading is bold, text is roman 
+\newtheorem{defn}{Definition}
+\newtheorem{conj}{Conjecture}
+\newtheorem{example}{Example}
+\newtheorem{step}{Step}
+
+\theoremstyle{remark}  % Heading is italic, text is roman
+\newtheorem*{rem}{Remark}
+\newtheorem*{note}{Note}
+\newtheorem{case}{Case}
+\newtheorem{claim}{Claim}
+

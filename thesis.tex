@@ -1,0 +1,24 @@
+\documentclass[10pt]{report}      % Specifies the document class
+                             % The preamble begins here.
+\include{preamble}
+\begin{document}             
+
+\include{titlepage}
+\include{copyright}
+\include{abstract}
+\include{acceptance}
+\include{acknowledgements}
+\tableofcontents \newpage
+\listoftables \newpage
+\listoffigures \newpage
+\include{body}
+\bibliographystyle{alpha}
+\bibliography{dbfile}
+%Appendix (if any)
+\appendix
+\include{appendix}
+%Index (Check out the 'makeindex' package, if you really want an index.)
+
+\end{document}
+
+

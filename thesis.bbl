@@ -1,0 +1,38 @@
+\begin{thebibliography}{Wal62}
+
+\bibitem[Bix98]{bix}
+Robert Bix.
+\newblock {\em Conics and cubics}.
+\newblock Springer-Verlag, New York, 1998.
+\newblock A concrete introduction to algebraic curves.
+
+\bibitem[Ful89]{fulton}
+William Fulton.
+\newblock {\em Algebraic curves}.
+\newblock Addison-Wesley Publishing Company Advanced Book Program, Redwood
+  City, CA, 1989.
+\newblock An introduction to algebraic geometry, Notes written with the
+  collaboration of Richard Weiss, Reprint of 1969 original.
+
+\bibitem[Gib98]{gibson}
+C.~G. Gibson.
+\newblock {\em Elementary geometry of algebraic curves: an undergraduate
+  introduction}.
+\newblock Cambridge University Press, Cambridge, 1998.
+
+\bibitem[Kir92]{kirwan}
+Frances Kirwan.
+\newblock {\em Complex algebraic curves}.
+\newblock Cambridge University Press, Cambridge, 1992.
+
+\bibitem[ST92]{ST}
+Joseph~H. Silverman and John Tate.
+\newblock {\em Rational points on elliptic curves}.
+\newblock Springer-Verlag, New York, 1992.
+
+\bibitem[Wal62]{walker}
+Robert~J. Walker.
+\newblock {\em Algebraic curves}.
+\newblock Dover Publications Inc., New York, 1962.
+
+\end{thebibliography}
