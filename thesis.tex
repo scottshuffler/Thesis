@@ -1,5 +1,6 @@
-\documentclass[10pt]{report}      % Specifies the document class
+\documentclass[12pt]{report}      % Specifies the document class
                              % The preamble begins here.
+\setcounter{secnumdepth}{4}
 \include{preamble}
 \begin{document}             
 
@@ -9,14 +10,16 @@
 \include{acceptance}
 \include{acknowledgements}
 \tableofcontents \newpage
-\listoftables \newpage
-\listoffigures \newpage
+%\listoftables \newpage
+%\listoffigures \newpage
 \include{body}
-\bibliographystyle{alpha}
-\bibliography{dbfile}
+\nocite{*}
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{ieeetr}
+\bibliography{resources}
 %Appendix (if any)
-\appendix
-\include{appendix}
+%\appendix
+%\include{appendix}
 %Index (Check out the 'makeindex' package, if you really want an index.)
 
 \end{document}
